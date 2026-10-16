@@ -1,0 +1,14 @@
+琴房管理系统 V2.0 交付验证记录
+====================================
+环境：Linux / Python 3.13 / Tk 8.6 / SQLite 3
+
+1. python3 -m unittest discover -s tests -q
+   RESULT: 14 tests passed.
+
+2. xvfb-run -a python3 tests/smoke_gui.py
+   RESULT: home / register / book / check / history / notice all rendered successfully.
+
+3. python3 app.py --help
+   RESULT: CLI argument parsing works.
+
+注意：实际 Windows 电脑尚未进行原生系统安装测试，提供标准库 Tkinter + Windows 启动脚本。
