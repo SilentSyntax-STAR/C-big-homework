@@ -1,5 +1,5 @@
 # C-big-homework
-Piano Room Management System 基于哈尔滨工业大学二校区的琴房管理系统
+基于哈尔滨工业大学二校区的琴房管理系统
 # 琴房管理系统
 
 ## 项目简介
